@@ -1,14 +1,18 @@
-let articleList = document.querySelector("articleListId");
+let articleList = document.querySelector("#articleListId");
+
+function createPost(title, imgUrl, text) {
 
 let rootElement = document.createElement("article");
 rootElement.classList.add("post");
 
-rootElement.innerHTML = `
-    <figure class="postImage">
-                <img src="https://www.cats.org.uk/media/yhxbyvoy/230215case104.jpg" alt="img">
-           </figure>
+    rootElement.innerHTML = `
+        <header class="postHeader">
+            <h2>${title}</h2>
+        </header>
+            <figure class="postImage">
+                <img src="https://www.cats.org.uk/media/yhxbyvoy/230215case104.jpg" alt="img"></figure>
 
-           <footer class="postFooter">
+            <footer class="postFooter">
                 <div class="buttons">
                     <button class="Likes">Likes</button>
                     <button class="Comments">Comments</button>
@@ -17,7 +21,13 @@ rootElement.innerHTML = `
                         <strong>Naam:</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus deserunt, asperiores quas voluptatibus impedit, sapiente quisquam iste quaerat iusto itaque fugiat consectetur, molestiae repudiandae fuga. Maxime delectus soluta quasi voluptas.
                     </p>
                 </div>
-           </footer>
-`;
+            </footer>
+    `;
+    articleList.appendChild(rootElement);
+}
 
-articleList.appendChild(rootElement);
+createPost(
+    "Naam",
+    "https://www.cats.org.uk/media/yhxbyvoy/230215case104.jpg",
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus deserunt, asperiores quas voluptatibus impedit, sapiente quisquam iste quaerat iusto itaque fugiat consectetur, molestiae repudiandae fuga. Maxime delectus soluta quasi voluptas."
+);
