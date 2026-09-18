@@ -23,6 +23,7 @@ html {
     background-color: #ffffff;
     border: 1px solid black;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .postHeader {
@@ -30,7 +31,7 @@ html {
     border-bottom: 1px solid #efefef;
 }
 
-.postImage {
+.postImage img {
     width: 100%;
     height: 100%;
     display: block;
@@ -41,5 +42,20 @@ html {
 }
 
 .buttons {
-    
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    font-size: 1.4rem;
+    padding: 6px 12px;
+    margin-right: 6px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.postText {
+    font-size: 1.4rem;
+    line-height: 1.4;
 }
