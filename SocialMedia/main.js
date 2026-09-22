@@ -2,13 +2,7 @@ let articleList = document.querySelector("#articleListId");
 
 function createPost(title, imgUrl, text) {
 
-let rootElement = document.createElement("article");
-rootElement.classList.add("post");
 
-    rootElement.innerHTML = `
-    `;
-    articleList.appendChild(rootElement);
-}
 
 createPost(
     "Naam",
