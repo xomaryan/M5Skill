@@ -2,7 +2,7 @@ let articleList = document.querySelector("#articleListId");
 
 
 
-function createPost(text, imgUrl) {
+function createPost(username, text, imgUrl) {
     let rootElement = document.createElement("article");
     rootElement.classList.add("post");
     
@@ -12,7 +12,7 @@ function createPost(text, imgUrl) {
                 </header>
 
                 <figure class="postImage">
-                    <img src="https://www.cats.org.uk/media/yhxbyvoy/230215case104.jpg" alt="kat">
+                    <img src="${imgUrl}" alt="kat">
                 </figure>
 
                 <footer class="postFooter">
@@ -28,7 +28,7 @@ function createPost(text, imgUrl) {
                     <p class="likesText"><strong>142 Likes</strong></p>
 
                     <p class="postText">
-                        <strong>naam</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi non qui repudiandae obcaecati unde dolor quo nobis saepe alias nisi blanditiis cumque maxime, rem sit a quibusdam ea! Tempore, laudantium?
+                        <strong>naam</strong>${text}
                     </p>
 
                     <div class="commentsSection">
@@ -37,9 +37,11 @@ function createPost(text, imgUrl) {
                 </footer>
         `;
 
-        acticleList.appendChild(rootElement);
+        articleList.appendChild(rootElement);
 }
 
 createPost(
-    "naam"
+    "naam",
+    "https://www.cats.org.uk/media/yhxbyvoy/230215case104.jpg",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi non qui repudiandae obcaecati unde dolor quo nobis saepe alias nisi blanditiis cumque maxime, rem sit a quibusdam ea! Tempore, laudantium?"
 );
