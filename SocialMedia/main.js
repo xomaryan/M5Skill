@@ -2,7 +2,7 @@ let articleList = document.querySelector("#articleListId");
 
 
 
-function createPost(DataTransferItemList, imgUrl) {
+function createPost(text, imgUrl) {
     let rootElement = document.createElement("article");
     rootElement.classList.add("post");
     
