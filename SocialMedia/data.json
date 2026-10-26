@@ -1,0 +1,72 @@
+[
+  {
+    "user": "Vivien_on_the_hunt",
+    "likes": 201,
+    "comments": 67,
+    "text": "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb",
+    "imgUrl": "https://picsum.photos/200/300?random=1"
+  },
+  {
+    "user": "Alex_Explorer",
+    "likes": 145,
+    "comments": 12,
+    "text": "Chasing sunsets and drinking way too much iced coffee today.",
+    "imgUrl": "https://picsum.photos/200/300?random=2"
+  },
+  {
+    "user": "Pixel_Artist",
+    "likes": 890,
+    "comments": 104,
+    "text": "Working on a new cyberpunk city illustration. What do you think of the color palette?",
+    "imgUrl": "https://picsum.photos/200/300?random=3"
+  },
+  {
+    "user": "CoffeeAndCode",
+    "likes": 53,
+    "comments": 8,
+    "text": "It compiles on the first try. I am genuinely terrified and suspicious.",
+    "imgUrl": "https://picsum.photos/200/300?random=4"
+  },
+  {
+    "user": "Luna_Stargazer",
+    "likes": 412,
+    "comments": 35,
+    "text": "Managed to capture the full moon last night through the telescope! 🔭✨",
+    "imgUrl": "https://picsum.photos/200/300?random=5"
+  },
+  {
+    "user": "Chef_Marco",
+    "likes": 320,
+    "comments": 41,
+    "text": "Homemade pasta from scratch. Flour everywhere, but totally worth it.",
+    "imgUrl": "https://picsum.photos/200/300?random=6"
+  },
+  {
+    "user": "NomadNotes",
+    "likes": 678,
+    "comments": 89,
+    "text": "Lost in the winding streets of Kyoto. Every corner looks like a postcard.",
+    "imgUrl": "https://picsum.photos/200/300?random=7"
+  },
+  {
+    "user": "Fitness_Freak_Sam",
+    "likes": 182,
+    "comments": 19,
+    "text": "Early morning run in the crisp autumn air. Done before the sun even woke up!",
+    "imgUrl": "https://picsum.photos/200/300?random=8"
+  },
+  {
+    "user": "Vinyl_Junkie",
+    "likes": 230,
+    "comments": 27,
+    "text": "Spinning some 70s funk records this Sunday afternoon. Nothing beats analog sound.",
+    "imgUrl": "https://picsum.photos/200/300?random=9"
+  },
+  {
+    "user": "Bookworm_Chloe",
+    "likes": 511,
+    "comments": 62,
+    "text": "Current read: A sci-fi masterpiece that is completely blowing my mind.",
+    "imgUrl": "https://picsum.photos/200/300?random=10"
+  }
+]
