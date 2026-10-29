@@ -5,9 +5,8 @@ async function fetchData() {
     let posts = await response.json();
     console.log(posts);
 
-    for(const post of posts){
-       
-        createPost(post.user, post.text, post.imgUrl);
+    for (const post of posts) {
+        createPost(post.user, post.text, post.imgUrl, post.likes);
     }
 }
 
